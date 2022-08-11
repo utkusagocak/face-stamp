@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.838eec90.css",
-    "main.js": "/static/js/main.8cd5d433.js",
-    "static/js/787.4a242df8.chunk.js": "/static/js/787.4a242df8.chunk.js",
-    "static/media/arm.png": "/static/media/arm.91edff3378b4b5b8bb0a.png",
-    "static/media/Marx.png": "/static/media/Marx.d22b992f95b0ab616458.png",
-    "static/media/stamp-sound.mp3": "/static/media/stamp-sound.da3b6196ad10f54ef03c.mp3",
-    "index.html": "/index.html",
-    "main.838eec90.css.map": "/static/css/main.838eec90.css.map",
-    "main.8cd5d433.js.map": "/static/js/main.8cd5d433.js.map",
-    "787.4a242df8.chunk.js.map": "/static/js/787.4a242df8.chunk.js.map"
+    "main.css": "/face-stamp/static/css/main.838eec90.css",
+    "main.js": "/face-stamp/static/js/main.82559a07.js",
+    "static/js/787.4a242df8.chunk.js": "/face-stamp/static/js/787.4a242df8.chunk.js",
+    "static/media/arm.png": "/face-stamp/static/media/arm.91edff3378b4b5b8bb0a.png",
+    "static/media/Marx.png": "/face-stamp/static/media/Marx.d22b992f95b0ab616458.png",
+    "static/media/stamp-sound.mp3": "/face-stamp/static/media/stamp-sound.da3b6196ad10f54ef03c.mp3",
+    "index.html": "/face-stamp/index.html",
+    "main.838eec90.css.map": "/face-stamp/static/css/main.838eec90.css.map",
+    "main.82559a07.js.map": "/face-stamp/static/js/main.82559a07.js.map",
+    "787.4a242df8.chunk.js.map": "/face-stamp/static/js/787.4a242df8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.838eec90.css",
-    "static/js/main.8cd5d433.js"
+    "static/js/main.82559a07.js"
   ]
 }
