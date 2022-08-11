@@ -2,7 +2,7 @@
   "name": "face-stamp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://23sent.github.io/face-stamp/",
+  "homepage": "https://23sent.github.io/face-stamp",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
