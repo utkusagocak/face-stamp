@@ -3,6 +3,7 @@ import './App.scss';
 import Canvas, { clearCanvas } from './Components/Canvas/Canvas';
 // https://commons.wikimedia.org/wiki/File:Karl_Marx_monochromatic.svg
 import marx from './assests/Marx.png';
+import terbiyesiz from './assests/terbiyesiz.png';
 
 function App() {
   const [imageUrl, setImageUrl] = useState(marx);
