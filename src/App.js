@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './App.scss';
-import Canvas, { clearCanvas } from './Components/Canvas/Canvas';
+import Canvas, { clearCanvas } from './Canvas/Canvas';
 // https://commons.wikimedia.org/wiki/File:Karl_Marx_monochromatic.svg
 import marx from './assests/Marx.png';
 import terbiyesiz from './assests/terbiyesiz.png';
+import { initStampAudio } from './StampAudio';
 
 function App() {
   const [imageUrl, setImageUrl] = useState(marx);
@@ -16,6 +17,8 @@ function App() {
     if (iURL) {
       setImageUrl(iURL);
     }
+
+    initStampAudio();
   }, []);
 
   function uploadImage(e) {

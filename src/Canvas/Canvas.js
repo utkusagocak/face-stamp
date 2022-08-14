@@ -2,9 +2,9 @@ import React, { useMemo } from 'react';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import './Canvas.scss';
-import stampMp3 from '../../assests/stamp-sound.mp3';
-import armPng from '../../assests/arm.png';
-
+import stampMp3 from '../assests/stamp-sound.mp3';
+import armPng from '../assests/arm.png';
+import { playStampAudio } from '../StampAudio';
 import { FaceStamp, Arm, ARM_HEIGHT, ARM_WIDTH } from './Shapes';
 
 const shapes = [];
@@ -59,8 +59,7 @@ function Canvas({ imageUrl, ...props }) {
     } else {
       if (arm.isStamp()) {
         console.log('stamp');
-        audio.pause();
-        audio.play();
+        playStampAudio();
         shapes.push(arm.applyStamp());
         shapes.sort((a, b) => a.zIndex - b.zIndex);
       }
